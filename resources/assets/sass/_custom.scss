@@ -1,0 +1,47 @@
+body{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 17px !important;
+}
+.layout-transparent {
+    //background: url('images/transparent.jpg') center / cover;
+  }
+  .layout-transparent .mdl-layout__header,
+  .layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+  }
+  .demo-card-wide.mdl-card {
+    width: 100%;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('http://ourfathersorphanagehome/images/img.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  .about-bg{
+    background: url('http://ourfathersorphanagehome/images/about_bg.jpg') center / cover;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    width:100%;
+    min-height:300px;       
+    padding: 10% 0 10% 0;
+    overflow: hidden !important;
+  }
+  .bg-light-black{
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 10px;    
+  }
+  .about-heading{
+    margin: 5% 0 0 0;
+  }
+  p{
+    font-size: 17px !important;
+  }
+  .full-width{
+    width:100%;
+  }

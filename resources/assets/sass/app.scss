@@ -1,0 +1,34 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+//custom 
+@import 'custom';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//material design
+@import '~material-design-lite/src/material-design-lite';
+
+//MDL Grid
+@import '~material-design-lite/src/material-design-lite-grid';
+
+//MDL template
+@import '~material-design-lite/src/template';
+
+//MDL icon toggle
+@import '~material-design-lite/src/icon-toggle/icon-toggle';
+
+//font-awesome
+@import '~font-awesome/scss/font-awesome';
+
+//material components 
+//@import '~material-components-web/material-components-web';
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
