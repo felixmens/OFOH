@@ -17,7 +17,6 @@ body{
   .demo-card-wide > .mdl-card__title {
     color: #fff;
     height: 176px;
-    background: url('http://ourfathersorphanagehome/images/img.jpg') center / cover;
   }
   .demo-card-wide > .mdl-card__menu {
     color: #fff;
@@ -45,3 +44,11 @@ body{
   .full-width{
     width:100%;
   }
+  .center-align{
+    text-align: center;
+  }
+  @media only screen and (max-width: 700px) {
+    .demo-card-wide.mdl-card {
+      margin: 0 20% 0 20%;
+    }
+}
