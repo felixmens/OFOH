@@ -37,112 +37,106 @@
                     <h2 class="text-center mt-5 mb-10">Welcome to <label title="{{config('app.name')}}" for="OFOH" class="text-primary">OFOH</label> </h2>                  
                 </div>
               </div>
-              <div class="container">
                   <div class="mdl-grid animated fadeInUp">
+                    <div class="container">
                       <div class="mdl-cell mdl-cell--12-col">
-                            <p class="text-center">
-                                In the heart of every child is a hunger for home. Not just for food and a place to sleep, but for
-                                safety and community. Most importantly: for love. At <label for="OFOH" title="{{config('app.name')}}">OFOH</label> , 
-                                in the town of butterworth, we are much more than a home for unwanted Indian 
-                                orphans.
-                            </p>
-                            <p class="text-center">
-                                We are a family, where God’s love guides us all as we grow and expand year after year. Not just
-                                an Indian orphanage, we are a nearly self-sustaining organization; a working farm, a vibrant
-                                school, receiving no government assistance of any kind. Take a look around and if you have 
-                                any questions just get in contact with us via the menu above!                        
-                            </p>
+                          <p class="text-center">
+                              <b>{{config('app.name')}}</b> is located in Butterworth by a group of prominent Christians, 
+                              development workers who are committed to make a difference. The aim is to improve living conditions and acceptable 
+                              social development in community. Also to foster a love of books and reading in the children and to create a thirst
+                              for knowledge as we also want to have a library. My Father Orphanage Home is currently running a soup kitchen.
+                              We are a family, where God’s love guides us all as we grow and expand year after year. 
+                          </p>
                       </div>
+                    </div>
                   </div>
-              </div>
             
-              
+
+                <div class="mdl-grid mdl-color--white pb-5">
+                  <div class="container">
+                      <div class="mdl-cell mdl-cell--12-col">
+                          <h3 class="text-center text-primary">Our Aim is</h3>
+                          <p class="text-center">
+                           to improve living conditions and acceptable social development in community. We definitely believe that knowledge is power hence we aim at fostering the love 
+                           of intuitive recommended books in the children to create a thirst for knowledge as we plan to have a 
+                           library.
+                          </p>
+                          
+                            </div>
+                        </div>
+                </div>
+
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--12-col-phone">
-                    <div class="demo-card-wide mdl-card mdl-shadow--2dp align-middle">
-                        <div class="mdl-card__title">
-                          <h2 class="mdl-card__title-text">
-                              Our Orphanage                            
-                          </h2>
-                        </div>
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp align-middle mdl-color--indigo-50">
+                        <img src="{{asset('images/img1.jpg')}}" alt="" class="img-fluid">
+                        <h3 class="text-center ml-3 mb-0 mt-0">
+                            Our Orphanage                            
+                        </h3>
+                        
                         <div class="mdl-card__supporting-text">
-                            Our orphanage is the very heart of what we do, our children inspire us and we hope, as you look around, they will inspire you!
-                        </div>
+                          We provide a christian spiritual journey that begins with basic honesty and leads to character development. 
+                       </div>
                         <div class="mdl-card__actions mdl-card--border">
-                          <a href="/contact" class="mdl-button align-middle mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                            Support
-                          </a>
+                          <div class="center-align">
+                            <a href="/contact" class="mdl-button align-middle mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            read more
+                            </a>
+                          </div>
                         </div>
                       </div>
                 </div>
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--12-col-phone">
                     <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-color--amber">
-                        <div class="mdl-card__title">
-                          <h2 class="mdl-card__title-text">Our School</h2>
-                        </div>
+                        <img src="{{asset('images/img.jpg')}}" alt="" class="img-fluid">
+                        <h3 class="text-center ml-3 mb-0 mt-0">Our School</h3>
                         <div class="mdl-card__supporting-text">
-                            To generate income while educating our kids we run a great kindergarten, primary and high school!
+                            We provide basic care for the needy.<br/>
+                            We feed the Butterworth community.                              
                         </div>
                         <div class="mdl-card__actions mdl-card--border">
-                          <a href="/contact" class="mdl-button align-middle mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                            Support
-                          </a>
+                          <div class="center-align">
+                            <a href="/contact" class="mdl-button align-middle mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                              Support
+                            </a>
+                          </div>
                         </div>
                       </div>
                 </div>
                 
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--12-col-phone">
-                    <div class="demo-card-wide mdl-card mdl-shadow--2dp align-middle">
-                        <div class="mdl-card__title">
-                          <h2 class="mdl-card__title-text"></h2>
-                        </div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mb-5">
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp align-middle  mdl-color--blue-50">
+                        <img src="{{asset('images/img2.jpg')}}" alt="" class="img-fluid">
+                        <h3 class="text-center ml-3 mb-0 mt-0">Our Mission</h3>
                         <div class="mdl-card__supporting-text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          Mauris sagittis pellentesque lacus eleifend lacinia...
+                          Building communities by reducing street kids and crime. <br/>
+                          Thereby reaching out and changing lives.
                         </div>
                         <div class="mdl-card__actions mdl-card--border">
-                          <a href="/contact" class="mdl-button align-middle mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                            Support
-                          </a>
+                          <div class="center-align">
+                            <a href="/about" class="mdl-button align-middle mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            read more
+                            </a>
+                          </div>
                         </div>
                       </div>
+                    </div>           
                 </div>
-            </div>
-            <div class="mdl-grid mdl-color--white">
-              <div class="mdl-cell mdl-cell--12-col">
-                  <h2 class="text-center text-secondary">
-                      The organisations main objectives are                 
-                  </h2>
-              </div>
-            </div>
-            <div class="mdl-grid mdl-color--white">
-              <div class="mdl-cell mdl-cell--3-col"></div>
-              <div class="mdl-cell mdl-cell--7-col">
-                  <ul class="demo-list-icon mdl-list">
-                      <li class="mdl-list__item">
-                        <span class="mdl-list__item-primary-content">
-                        To provide basic care Education Health food and clothing
-                    </span>
-                      </li>
-                      <li class="mdl-list__item">
-                        <span class="mdl-list__item-primary-content">
-                        To the entire needy orphans to reach out to the entire community
-                      </span>
-                      </li>
-                      <li class="mdl-list__item">
-                        <span class="mdl-list__item-primary-content">
-                        To ensure that they are properly taken care of contributes
-                      </span>
-                      </li>
-                      <li class="mdl-list__item">
-                          <span class="mdl-list__item-primary-content">
-                          To the entire community as much as we can by giving to the needy                          
-                        </span>
-                        </li>
-                    </ul>                  
-              </div>
-              <div class="mdl-cell mdl-cell--2-col"></div>              
-            </div>
+                <div class="container mb-5">
+                  <div class="card text-center">
+                  <div class="card-header">
+                  On going project
+                  </div>
+                  <div class="card-body">
+                  <h5 class="card-title">
+                  <b>{{config('app.name')}}</b> is currently running a soup kitchen.
+                  </h5>
+                  <button class="mdl-button mdl-js-button mdl-color--accent mdl-color-text--white align-middle">
+                  Support
+                  </button>
+                  </div>
+                  </div>
+                  </div>
             @include('inc.footer')
         </main>
       @endsection
